@@ -1,0 +1,23 @@
+.countdown {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .flex {
+    display: flex;
+    gap: 20px;
+
+    .time-container {
+      .time,
+      .separator {
+        font-size: 200px;
+        font-weight: bold;
+      }
+
+      .label {
+        height: 24px;
+      }
+    }
+  }
+}
