@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Countdown.scss";
 import Firework from "../firework/Firework";
 
-export default () => {
+const Countdown = () => {
   const [diff, setDiff] = useState(0);
   const [isPastLeavingTime, setIsPastLeavingTime] = useState(false);
   const [hours, setHours] = useState(0);
@@ -87,3 +87,5 @@ export default () => {
     </div>
   );
 };
+
+export default Countdown;

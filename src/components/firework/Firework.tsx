@@ -1,6 +1,6 @@
 import "./Firework.scss";
 
-export default () => {
+const Firework = () => {
   return (
     <>
       <div className="firework"></div>
@@ -9,3 +9,5 @@ export default () => {
     </>
   );
 };
+
+export default Firework;
